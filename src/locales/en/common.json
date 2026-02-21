@@ -1,0 +1,81 @@
+
+{
+  "appName": "NeuroCare",
+  "appDescription": "Your companion for stroke awareness and recovery, offering tools and information to support patients and caregivers.",
+  "nav": {
+    "dashboard": "Dashboard",
+    "fastTest": "FAST Test",
+    "nearbyHospitals": "Nearby Hospitals",
+    "rehabExercises": "Rehab Exercises",
+    "speechTherapyAI": "Speech Therapy AI"
+  },
+  "languageSwitcher": {
+    "changeLanguage": "Change language",
+    "en": "English",
+    "te": "Telugu",
+    "hi": "Hindi",
+    "ur": "Urdu",
+    "ar": "Arabic",
+    "zh": "Chinese",
+    "toggleMenu": "Toggle menu"
+  },
+  "dashboard": {
+    "welcome": "Welcome to {appName}",
+    "description": "Your companion for stroke awareness and recovery."
+  },
+  "common": {
+    "quickTipsTitle": "Quick Tips",
+    "quickTipsDescription": "Important reminders for your well-being.",
+    "tipExploreFAST": "Explore the FAST Test to learn about stroke symptoms.",
+    "tipRehabExercises": "Check out Rehabilitation Exercises to aid your recovery.",
+    "tipSpeechTherapy": "Use the AI Speech Therapy tool to practice your speech.",
+    "tipStayPositive": "Stay positive and consistent with your recovery plan."
+  },
+  "fastTestPage": {
+    "description": "Learn to recognize stroke symptoms using the F.A.S.T. test with our interactive guide.",
+    "title": "F.A.S.T. Stroke Test",
+    "emergencyCallButton": "Call Emergency Services Now",
+    "emergencyCallMessage": "Calling emergency services immediately is crucial. For now, please dial your local emergency number.",
+    "emergencyCallToastTitle": "Emergency Action"
+  },
+  "hospitalLocatorPage": {
+    "title": "Find Nearby Hospitals",
+    "description": "Locate medical facilities equipped for stroke care. (Sample data shown)",
+    "searchPlaceholder": "Enter hospital name or address...",
+    "searchButton": "Search",
+    "noResults": "No hospitals found matching your search criteria. Please try a different term or clear your search.",
+    "noteTitle": "Note:",
+    "noteContent": "This feature searches through sample hospital data. In an emergency, always call your local emergency number.",
+    "hospitalCard": {
+        "servicesTitle": "Services:",
+        "getDirectionsButton": "Get Directions"
+    }
+  },
+  "rehabPage": {
+    "description": "Guided physical therapy exercises to aid in stroke recovery. Always consult your healthcare provider before starting.",
+    "title": "Rehabilitation Exercises",
+    "subTitle": "Follow these exercises to help regain strength and mobility. Consult your doctor or therapist before starting any new exercise program.",
+    "noExercises": "No exercises available at the moment. Please check back later."
+  },
+  "exerciseCard": {
+    "instructionsTitle": "Instructions:",
+    "watchVideoButton": "Watch Video"
+  },
+  "speechTherapyPage": {
+    "description": "Get AI-powered feedback on your speech to aid in recovery. Practice regularly for best results.",
+    "title": "AI Speech Rehabilitation",
+    "labelText": "Your Speech Text",
+    "placeholderText": "Type or paste your speech here...",
+    "buttonLoading": "Analyzing...",
+    "buttonDefault": "Get Feedback",
+    "errorTitle": "Error",
+    "feedbackTitle": "AI Feedback",
+    "overallAssessmentTitle": "Overall Assessment:",
+    "pronunciationTitle": "Pronunciation:",
+    "fluencyTitle": "Fluency:",
+    "clarityTitle": "Clarity:",
+    "suggestionsTitle": "Suggestions for Improvement:",
+    "validationMinChars": "Please enter at least 10 characters of speech.",
+    "validationMaxChars": "Speech text cannot exceed 1000 characters."
+  }
+}

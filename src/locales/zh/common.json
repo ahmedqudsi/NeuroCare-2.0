@@ -1,0 +1,81 @@
+
+{
+  "appName": "神经关怀",
+  "appDescription": "您在中风意识和康复方面的伴侣，提供工具和信息以支持患者和护理人员。",
+  "nav": {
+    "dashboard": "仪表板",
+    "fastTest": "FAST 测试",
+    "nearbyHospitals": "附近医院",
+    "rehabExercises": "康复锻炼",
+    "speechTherapyAI": "人工智能语言治疗"
+  },
+  "languageSwitcher": {
+    "changeLanguage": "更换语言",
+    "en": "英语",
+    "te": "泰卢固语",
+    "hi": "印地语",
+    "ur": "乌尔都语",
+    "ar": "阿拉伯语",
+    "zh": "中文",
+    "toggleMenu": "切换菜单"
+  },
+  "dashboard": {
+    "welcome": "欢迎来到{appName}",
+    "description": "您在中风意识和康复方面的伴侣。"
+  },
+  "common": {
+    "quickTipsTitle": "快速提示",
+    "quickTipsDescription": "为了您的健康，请牢记以下重要提醒。",
+    "tipExploreFAST": "进行FAST测试，了解中风症状。",
+    "tipRehabExercises": "查看康复锻炼，帮助您恢复。",
+    "tipSpeechTherapy": "使用AI语言治疗工具练习您的语言。",
+    "tipStayPositive": "保持积极心态，坚持您的康复计划。"
+  },
+  "fastTestPage": {
+    "description": "通过我们的互动指南，使用 F.A.S.T. 测试学习识别中风症状。",
+    "title": "F.A.S.T. 中风测试",
+    "emergencyCallButton": "立即呼叫紧急服务",
+    "emergencyCallMessage": "立即呼叫紧急服务至关重要。目前，请拨打您当地的紧急号码。",
+    "emergencyCallToastTitle": "紧急行动"
+  },
+  "hospitalLocatorPage": {
+    "title": "查找附近的医院",
+    "description": "查找配备中风护理设施的医疗机构。（显示为示例数据）",
+    "searchPlaceholder": "输入医院名称或地址...",
+    "searchButton": "搜索",
+    "noResults": "未找到符合您搜索条件的医院。请尝试其他搜索词或清除您的搜索。",
+    "noteTitle": "注意：",
+    "noteContent": "此功能通过示例医院数据进行搜索。在紧急情况下，请务必拨打您当地的紧急号码。",
+    "hospitalCard": {
+        "servicesTitle": "服务:",
+        "getDirectionsButton": "获取路线"
+    }
+  },
+  "rehabPage": {
+    "description": "指导性物理治疗练习，帮助中风康复。开始前请务必咨询您的医疗保健提供者。",
+    "title": "康复锻炼",
+    "subTitle": "遵循这些练习以帮助恢复力量和活动能力。在开始任何新的锻炼计划之前，请咨询您的医生或治疗师。",
+    "noExercises": "目前没有可用的练习。请稍后再回来查看。"
+  },
+  "exerciseCard": {
+    "instructionsTitle": "说明:",
+    "watchVideoButton": "观看视频"
+  },
+  "speechTherapyPage": {
+    "description": "获取AI驱动的言语反馈，帮助康复。定期练习以获得最佳效果。",
+    "title": "AI言语康复",
+    "labelText": "您的言语文本",
+    "placeholderText": "在此处输入或粘贴您的言语...",
+    "buttonLoading": "正在分析...",
+    "buttonDefault": "获取反馈",
+    "errorTitle": "错误",
+    "feedbackTitle": "AI反馈",
+    "overallAssessmentTitle": "总体评估：",
+    "pronunciationTitle": "发音：",
+    "fluencyTitle": "流利度：",
+    "clarityTitle": "清晰度：",
+    "suggestionsTitle": "改进建议：",
+    "validationMinChars": "请输入至少10个字符的语音。",
+    "validationMaxChars": "语音文本不能超过1000个字符。"
+  }
+}
