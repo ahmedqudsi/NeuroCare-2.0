@@ -1,6 +1,4 @@
-
 import type { Quote } from '@/types';
-import { Card, CardContent, CardFooter, CardHeader, CardTitle } from '@/components/ui/card';
 import { Quote as QuoteIcon } from 'lucide-react';
 
 interface MotivationalQuoteCardProps {
@@ -9,21 +7,34 @@ interface MotivationalQuoteCardProps {
 
 export function MotivationalQuoteCard({ quote }: MotivationalQuoteCardProps) {
   return (
-    <Card className="shadow-lg group">
-      <CardHeader>
-        <CardTitle className="flex items-center text-xl">
-          <QuoteIcon className="mr-2 h-6 w-6 text-primary" />
-          Motivational Quote
-        </CardTitle>
-      </CardHeader>
-      <CardContent>
-        <blockquote className="text-lg italic group-hover:scale-[1.03] transform transition-transform duration-200 ease-in-out origin-center">
-          "{quote.text}"
-        </blockquote>
-      </CardContent>
-      <CardFooter>
-        <p className="text-sm text-muted-foreground w-full text-right">- {quote.author}</p>
-      </CardFooter>
-    </Card>
+    <div className="relative overflow-hidden rounded-2xl border bg-card px-8 py-7 shadow-sm transition-all duration-300 hover:shadow-md group">
+
+      {/* Decorative large background quote mark */}
+      <span className="pointer-events-none absolute -top-3 -left-1 select-none text-[9rem] font-serif leading-none text-primary/5 transition-all duration-300 group-hover:text-primary/10">
+        &ldquo;
+      </span>
+
+      <div className="relative flex flex-col sm:flex-row sm:items-center gap-6">
+
+        {/* Icon badge */}
+        <div className="flex items-center justify-center w-11 h-11 rounded-xl bg-primary/10 border border-primary/15 shrink-0">
+          <QuoteIcon className="h-5 w-5 text-primary" />
+        </div>
+
+        {/* Content */}
+        <div className="flex-1 min-w-0">
+          <p className="text-[11px] font-semibold uppercase tracking-widest text-primary mb-2">
+            Daily Motivation
+          </p>
+          <blockquote className="text-base sm:text-lg font-medium text-foreground leading-relaxed italic">
+            &ldquo;{quote.text}&rdquo;
+          </blockquote>
+          <p className="mt-3 text-sm text-muted-foreground">
+            — <span className="font-medium text-foreground/80">{quote.author}</span>
+          </p>
+        </div>
+
+      </div>
+    </div>
   );
 }

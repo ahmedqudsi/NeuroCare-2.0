@@ -1,16 +1,21 @@
 
 import type { NavigationItem } from '@/types';
-import { LayoutDashboard, Activity, Hospital, Bike, BriefcaseMedical } from 'lucide-react';
+import { LayoutDashboard, Activity, Hospital, Bike, BriefcaseMedical,Home } from 'lucide-react';
 
 export const siteConfig = {
   appName: 'NeuroCare',
   description: 'A Comprehensive Stroke Awareness & Recovery Companion',
   sidebarNav: [
+    // {
+    //   href: '/dashboard',
+    //   label: 'Dashboard',
+    //   icon: LayoutDashboard,
+    // },
     {
-      href: '/dashboard',
-      label: 'Dashboard',
-      icon: LayoutDashboard,
-    },
+  href: '/home',     // changed
+  label: 'Home',     // changed
+  icon: Home,
+},
     {
       href: '/fast-test',
       label: 'FAST Test',
