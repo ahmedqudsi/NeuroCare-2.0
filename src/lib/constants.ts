@@ -8,7 +8,7 @@ export const motivationalQuotes: Quote[] = [
   { id: '3', text: "Believe you can and you're halfway there.", author: "Theodore Roosevelt" },
   { id: '4', text: "It does not matter how slowly you go as long as you do not stop.", author: "Confucius" },
   { id: '5', text: "Our greatest weakness lies in giving up. The most certain way to succeed is always to try just one more time.", author: "Thomas A. Edison" },
-  { id: '6', text: "Recovery is not one and done. It's a lifelong journey that takes place one day, one step at a time.", author: "Unknown" },
+  { id: '6', text: "Recovery is not one and done. It's a lifelong journey that takes place one day, one step at a time.", author: "Anonymous" },
   { id: '7', text: "Strength does not come from physical capacity. It comes from an indomitable will.", author: "Mahatma Gandhi" }
 ];
 
