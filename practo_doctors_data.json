@@ -1,0 +1,182 @@
+[
+    {
+        "Name": "Dr. Siddartha Reddy",
+        "Profile Picture": "https://images1-fabric.practo.com/doctor/454667/dr-siddartha-reddy-61a2238e8fcfa.png",
+        "Specialization": "Neurologist",
+        "Experience": "18Years Experience Overall(10years as specialist)",
+        "Qualification": [
+            "MBBS - Dr. NTR University of Health Sciences Andhra Pradesh, 2007",
+            "MD - Pediatrics - Jawaharlal Nehru Medical College, Belgaum, 2012",
+            "DM - Neurology - Jawaharlal Nehru Medical College, Belgaum, 2015"
+        ],
+        "Hospital Name": "Siddarth Neuro Centre",
+        "Price": "₹1500 consultation fee",
+        "Phone no": "040-41894777",
+        "Email": "info@sidarthhospitals.com"
+    },
+    {
+        "Name": "Dr. Sandeep Raja Pittala",
+        "Profile Picture": "https://images1-fabric.practo.com/doctor/912434/dr-sandeep-raja-p-60477a4c4a834.jpg",
+        "Specialization": "Neurologist,",
+        "Experience": "18Years Experience Overall(9years as specialist)",
+        "Qualification": [
+            "MBBS - Gandhi Medical College, Hyderabad, 2008",
+            "MS - General Surgery - Andhra Medical College, 2014",
+            "MCh - Neuro Surgery - Gandhi Medical College, Hyderabad, 2017"
+        ],
+        "Hospital Name": "Srikara Hospital",
+        "Price": "₹500 consultation fee",
+        "Phone no": "077992 10856",
+        "Email": "sandeeprajams@gmail.com "
+    },
+    {
+        "Name": "Dr. Shyam K Jaiswal",
+        "Profile Picture": "https://images1-fabric.practo.com/doctor/295880/dr-shyam-k-jaiswal-5d5a3c31692fc.png",
+        "Specialization": "Neurologist,",
+        "Experience": "22Years Experience Overall(17years as specialist)",
+        "Qualification": [
+            "MBBS - King Edward Memorial Hospital and Seth Gordhandas Sunderdas Medical College, 2004",
+            "MD - General Medicine - Shivaji University, Kolhapur, Maharashtra, India., 2008",
+            "DNB - Neurology - National Board Of Examinations, New Delhi., 2014"
+        ],
+        "Hospital Name": "Kingston Hospitals",
+        "Price": "₹1000 consultation fee",
+        "Phone no": "+91 72079 59888",
+        "Email": "drshyamjaiswalneuro@gmail.com"
+    },
+    {
+        "Name": "Dr. Vikram Reddy",
+        "Profile Picture": "https://images1-fabric.practo.com/doctor/753784/dr-vikram-reddy-6114e912625c4.png",
+        "Specialization": "Neurologist",
+        "Experience": "17Years Experience Overall(7years as specialist)",
+        "Qualification": [
+            "MBBS - Dr. NTR University of Health Sciences Andhra Pradesh, 2009",
+            "DNB - Paediatrics - National Board Of Examination, 2013",
+            "DNB - Neurology - National Board Of Examination, 2017"
+        ],
+        "Hospital Name": "Medicover Hospitals - Hitech City",
+        "Price": "₹800 consultation fee",
+        "Phone no": "+91 70754 93806",
+        "Email": "info@medicoverhospitals.in"
+    },
+    {
+        "Name": "Dr. Venkata Harin Reddy M",
+        "Profile Picture": "https://images1-fabric.practo.com/doctor/912887/dr-venkata-harin-reddy-m-605d85b549b37.jpeg",
+        "Specialization": "Neurologist",
+        "Experience": "16Years Experience Overall(7years as specialist)",
+        "Qualification": [
+            "MBBS - Southern Medical University, China, 2010",
+            "DNB - General Medicine - National Board of Examination, India, 2015",
+            "DNB - Neurology - National Board of Examination, India, 2019"
+        ],
+        "Hospital Name": "Srikara Hospitals",
+        "Price": "₹800 consultation fee",
+        "Phone no": "+91 93811 43154",
+        "Email": "harinreddy999@gmail.com"
+    },
+    {
+        "Name": "Dr. Nagendra Babu Dade",
+        "Profile Picture": "https://images1-fabric.practo.com/doctor/1056799/dr-nagendra-babu-dade-643e79b884a61.jpg",
+        "Specialization": "Neurologist",
+        "Experience": "21Years Experience Overall(12years as specialist)",
+        "Qualification": [
+            "MBBS - Dr. NTR University of Health Sciences Andhra Pradesh, 2004",
+            "MCh - Neuro Surgery - Osmania Medical College, Hyderabad, 2014",
+            "MS - General Surgery - Osmania Medical College; Hyderabad, 2008"
+        ],
+        "Hospital Name": "Srikara Hospital",
+        "Price": "₹700 consultation fee",
+        "Phone no": "+91 63994 56789",
+        "Email": "info@clinicspotindia.com"
+    },
+    {
+        "Name": "Dr. Niloufer Ali",
+        "Profile Picture": "https://images1-fabric.practo.com/doctor/752984/dr-niloufer-ali-6530e6e015f2b.png",
+        "Specialization": "Neurologist",
+        "Experience": "15Years Experience Overall(7years as specialist)",
+        "Qualification": [
+            "MBBS - Dr. NTR University of Health Sciences Andhra Pradesh, 2011",
+            "MD - General Medicine - Dr. NTR University of Health Sciences Andhra Pradesh, 2015",
+            "DM - Neurology - Nizam Institute of Medical Sciences, Hyderabad, 2018"
+        ],
+        "Hospital Name": "Aster Prime Hospital",
+        "Price": "₹800 consultation fee",
+        "Phone no": "+91 90101 00518",
+        "Email": "crm.prime@asterhospital.in"
+    },
+    {
+        "Name": "Dr. P.Chandra Shekar",
+        "Profile Picture": "https://images1-fabric.practo.com/doctor/745134/dr-p-chandra-shekar-5cf8ebe3e651c.png",
+        "Specialization": "Neurologist,",
+        "Experience": "17Years Experience Overall(8years as specialist)",
+        "Qualification": [
+            "DM - Neurology - Gandhi Medical College, Hyderabad, 2017",
+            "MBBS - Kakatiya Medical College, Wrangal, 2009",
+            "MD - General Medicine - Gandhi Medical College, Hyderabad, 2014"
+        ],
+        "Hospital Name": "Prathima Hospitals",
+        "Price": "₹800 consultation fee",
+        "Phone no": "+91 40 6810 6529",
+        "Email": "Not Stated"
+    },
+    {
+        "Name": "Dr. Komal Bohra",
+        "Profile Picture": "https://images1-fabric.practo.com/doctor/771864/dr-komal-bohra-694b58e3d5bbf.png",
+        "Specialization": "Neurologist",
+        "Experience": "16Years Experience Overall(7years as specialist)",
+        "Qualification": [
+            "MBBS - Prathima Institute Of Medical Sciences; Karimnagar, 2010",
+            "MD - General Medicine - Osmania Medical College, Hyderabad, 2015",
+            "DM - Neurology - Nizam Institute of Medical Sciences, Hyderabad, 2019"
+        ],
+        "Hospital Name": "Srikara Hospital",
+        "Price": "₹600 consultation fee",
+        "Phone no": "+91 63095 24509",
+        "Email": "hello@hexahealth.com"
+    },
+    {
+        "Name": "Dr. Sk Jaiswal",
+        "Profile Picture": "https://images1-fabric.practo.com/doctor/2139930/dr-sk-jaiswal-690ab71971d08.png",
+        "Specialization": "Neurologist",
+        "Experience": "44Years Experience Overall(34years as specialist)",
+        "Qualification": [
+            "MBBS - Kakatiya University, 1982",
+            "MD - General Medicine - Osmania University, 1988",
+            "DM - Neurology - DR.NTR UNIVERSITY OF HEALTH SCIENCES, 1991"
+        ],
+        "Hospital Name": "Care Hospital",
+        "Price": "₹1000 consultation fee",
+        "Phone no": "+91 40 6810 6585",
+        "Email": "info@carehospitals.com"
+    },
+    {
+        "Name": "Dr. S.P.Manik Prabhu",
+        "Profile Picture": "https://images1-fabric.practo.com/doctor/873382/dr-s-p-manik-prabhu-6569d80573353.png",
+        "Specialization": "Neurosurgeon,",
+        "Experience": "22Years Experience Overall(10years as specialist)",
+        "Qualification": [
+            "MBBS - B R Ambedkar College, Bangalore, 2004",
+            "MS - General Surgery - All India Institute of Medical Sciences, New Delhi, 2008",
+            "MCh - Neuro Surgery - All India Institute of Medical Sciences, New Delhi, 2015"
+        ],
+        "Hospital Name": "Care Hospital",
+        "Price": "₹1000 consultation fee",
+        "Phone no": "+91 80699 23891",
+        "Email": "hello@hexahealth.com"
+    },
+    {
+        "Name": "Dr. Umesh Thukaram",
+        "Profile Picture": "https://images1-fabric.practo.com/doctor/208554/dr-umesh-thukaram-5912b5173f3ad.JPG",
+        "Specialization": "Neurologist",
+        "Experience": "38Years Experience Overall(28years as specialist)",
+        "Qualification": [
+            "MBBS - Bangalore Medical College and Research Institute, Bangalore, 1988",
+            "MD - General Medicine - M.R.Medical College, Gulbarga, 1993",
+            "DM - Neurology - Topiwala National Medical College, 1997"
+        ],
+        "Hospital Name": "Care Hospital",
+        "Price": "₹1000 consultation fee",
+        "Phone no": "+91 40 6810 6585",
+        "Email": "hello@hexahealth.com"
+    }
+]
