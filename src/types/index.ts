@@ -75,24 +75,47 @@ export type NurseBookingFormData = {
 };
 
 // Types for Doctor Visits
+// export interface Doctor {
+//   id: string;
+//   fullName: string;
+//   specialty: string;
+//   yearsOfExperience: number;
+//   languagesSpoken: string[];
+//   ratings: number; // e.g., 4.5
+//   verifiedLicense: boolean;
+//   profilePictureUrl: string;
+//   imageHint?: string;
+//   locationDescription: string; // e.g., "Serves Mehdipatnam and surrounding areas within a 5km radius"
+//   consultationFee: number; // in INR
+//   availability: string; // General availability, e.g., "Mon-Fri, 10am-5pm"
+//   bio?: string;
+
+//   // New fields for video consultation
+//   videoConsultationFee?: number;
+//   videoAvailabilitySlots?: string[]; // e.g., ["Mon 9am-10am", "Tue 2pm-3pm (Next Week)"]
+// }
+
+//New doctors one 
 export interface Doctor {
   id: string;
   fullName: string;
   specialty: string;
-  yearsOfExperience: number;
-  languagesSpoken: string[];
-  ratings: number; // e.g., 4.5
+  yearsOfExperience: string; // changed to string e.g. "18Years Experience Overall(10years as specialist)"
+  languagesSpoken?: string[];
+  ratings?: number;
   verifiedLicense: boolean;
   profilePictureUrl: string;
   imageHint?: string;
-  locationDescription: string; // e.g., "Serves Mehdipatnam and surrounding areas within a 5km radius"
-  consultationFee: number; // in INR
-  availability: string; // General availability, e.g., "Mon-Fri, 10am-5pm"
+  locationDescription?: string;
+  consultationFee: string; // changed to string e.g. "₹1500 consultation fee"
+  availability?: string;
   bio?: string;
-
-  // New fields for video consultation
   videoConsultationFee?: number;
-  videoAvailabilitySlots?: string[]; // e.g., ["Mon 9am-10am", "Tue 2pm-3pm (Next Week)"]
+  videoAvailabilitySlots?: string[];
+  qualification?: string[];
+  hospitalName?: string;
+  phone?: string;
+  email?: string;
 }
 
 export type DoctorBookingFormData = {

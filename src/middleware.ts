@@ -1,15 +1,48 @@
+import { NextResponse } from "next/server";
+import type { NextRequest } from "next/server";
 
-import { NextRequest, NextResponse } from 'next/server';
+export function middleware(req: NextRequest) {
+  const token = req.cookies.get("accessToken")?.value;
+  const protectedRoutes = [
+    "/fast-test",
+    "/hospital-locator",
+    "/rehabilitation",
+    "/healthcare-services",
+  ];
 
-// Middleware is no longer used for i18n routing after the revert.
-// This is a basic pass-through middleware.
-export function middleware(request: NextRequest) {
+  const authRoutes = [
+    "/login",
+    "/signup",
+    "/verify",
+    "/forgot-password",
+  ];
+
+  const { pathname } = req.nextUrl;
+
+  if (!token && protectedRoutes.some(route => pathname.startsWith(route))) {
+    // return NextResponse.redirect(new URL("/login", req.url));
+    const loginUrl = new URL("/login", req.url);
+    loginUrl.searchParams.set("redirected", "true");
+    loginUrl.searchParams.set("from", pathname);
+    return NextResponse.redirect(loginUrl);
+  }
+
+  if (token && authRoutes.some(route => pathname.startsWith(route))) {
+    return NextResponse.redirect(new URL("/home", req.url));
+  }
+
   return NextResponse.next();
 }
 
 export const config = {
-  // We keep the matcher to ensure middleware still runs,
-  // even if it's just a pass-through for now.
-  // Adjust this matcher if you have other middleware needs in the future.
-  matcher: ['/((?!api|_next/static|_next/image|favicon.ico|images/).*)'],
+  matcher: [
+    "/fast-test/:path*",
+    "/hospital-locator/:path*",
+    "/rehabilitation/:path*",
+    "/healthcare-services/:path*",
+    "/login",
+    "/signup",
+    "/verify/:path*",
+    "/forgot-password",
+  ],
 };

@@ -235,7 +235,7 @@ export default async function DashboardPage() {
                 <Button
                   size="lg"
                   variant="outline"
-                  className="rounded-full px-7"
+                  className="rounded-full px-7 hover:text-primary hover:bg-primary/10 transition-colors"
                 >
                   Explore health care services
                 </Button>

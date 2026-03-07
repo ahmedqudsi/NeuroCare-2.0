@@ -5,6 +5,8 @@ import './globals.css';
 import { ThemeProvider } from '@/providers/theme-provider';
 import { Toaster } from '@/components/ui/toaster';
 import { siteConfig } from '@/config/site';
+import { AuthProvider } from './context/AuthContext';
+
 
 const geistSans = Geist({
   variable: '--font-geist-sans',
@@ -39,7 +41,9 @@ export default function RootLayout({
           enableSystem={false} // Keeping this false as per ThemeToggleButton logic
           disableTransitionOnChange
         >
+          <AuthProvider>
           {children}
+          </AuthProvider>
           <Toaster />
         </ThemeProvider>
       </body>

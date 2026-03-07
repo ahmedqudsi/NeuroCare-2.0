@@ -10,6 +10,7 @@ const nextConfig: NextConfig = {
     ignoreDuringBuilds: true,
   },
   images: {
+    domains: ["images1-fabric.practo.com"],
     remotePatterns: [
       {
         protocol: 'https',
