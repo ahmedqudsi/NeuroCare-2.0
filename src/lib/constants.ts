@@ -494,6 +494,22 @@ export const sampleNurses: Nurse[] = [
 // new doctor data 
 export const sampleDoctors: Doctor[] = [
   {
+    id: 'doc000',
+    fullName: 'Test Doctor',
+    specialty: 'Neurologist',
+    yearsOfExperience: '18 years overall (10 as specialist)',
+    verifiedLicense: true,
+    profilePictureUrl: 'https://static.vecteezy.com/system/resources/thumbnails/009/292/244/small/default-avatar-icon-of-social-media-user-vector.jpg',
+    imageHint: 'Dr Siddartha Reddy profile',
+    hospitalName: 'Siddarth Neuro Centre',
+    consultationFee: '₹1500',
+    phone: '040-12233444',
+    email: 'abdulraheem80744@gmail.com',
+    qualification: [
+      'MBBS - Dr. NTR University of Hyderabad Andhra Pradesh, 2007'
+    ],
+  },
+   {
     id: 'doc001',
     fullName: 'Dr. Siddartha Reddy',
     specialty: 'Neurologist',

@@ -1,5 +1,18 @@
 [
     {
+        "Name": "Test Doctor",
+        "Profile Picture": "https://static.vecteezy.com/system/resources/thumbnails/009/292/244/small/default-avatar-icon-of-social-media-user-vector.jpg",
+        "Specialization": "Neurologist",
+        "Experience": "18Years Experience Overall(10years as specialist)",
+        "Qualification": [
+            "MBBS - Dr. NTR University of Health Sciences Telangana, 2007"
+        ],
+        "Hospital Name": "Siddarth Neuro Centre",
+        "Price": "₹1500 consultation fee",
+        "Phone no": "040-41894777",
+        "Email": "abdulraheem80744@gmail.com"
+    },
+    {
         "Name": "Dr. Siddartha Reddy",
         "Profile Picture": "https://images1-fabric.practo.com/doctor/454667/dr-siddartha-reddy-61a2238e8fcfa.png",
         "Specialization": "Neurologist",

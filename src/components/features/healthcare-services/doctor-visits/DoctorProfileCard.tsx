@@ -72,13 +72,18 @@ export function DoctorProfileCard({ doctor }: DoctorProfileCardProps) {
       <CardHeader className="pb-3">
         <div className="flex items-start space-x-4">
           <div className="relative w-20 h-20 rounded-full overflow-hidden border-2 border-primary flex-shrink-0">
-            <Image
+            {/* <Image
               src={doctor.profilePictureUrl}
               alt={`Photo of ${doctor.fullName}`}
               fill
               style={{ objectFit: 'cover' }}
               data-ai-hint={doctor.imageHint || 'doctor profile'}
-            />
+            /> */}
+            <img
+  src={doctor.profilePictureUrl}
+  alt="User avatar"
+  style={{ objectFit: 'cover' }}
+/>
           </div>
           <div className="flex-1">
             <CardTitle className="text-xl group-hover:text-primary transition-colors">{doctor.fullName}</CardTitle>

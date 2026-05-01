@@ -324,7 +324,8 @@ import { useAuth } from '@/app/context/AuthContext';
 
 const GOOGLE_CLIENT_ID   = '181230774192-l2j93v43hahn143as61bm1g7teb4qn06.apps.googleusercontent.com';
 const APP_URL            = process.env.NEXT_PUBLIC_APP_URL ?? 'http://localhost:9002';
-const GOOGLE_CALLBACK_URL = `${APP_URL}/google/callback`;
+// const GOOGLE_CALLBACK_URL = `${APP_URL}/google/callback`;
+const GOOGLE_CALLBACK_URL = `http://localhost:9002/google/callback`;
 
 function buildGoogleOAuthUrl(): string {
   const params = new URLSearchParams({
@@ -419,10 +420,25 @@ export default function LoginPage() {
     }
   };
 
+  // const handleGoogleLogin = () => {
+  //   setGoogleLoading(true);
+  //   window.location.href = buildGoogleOAuthUrl();
+  // };
   const handleGoogleLogin = () => {
-    setGoogleLoading(true);
-    window.location.href = buildGoogleOAuthUrl();
-  };
+  setGoogleLoading(true);
+
+  const params = new URLSearchParams({
+    client_id: GOOGLE_CLIENT_ID,
+     redirect_uri: "http://localhost:8000/api/v1/auth/google/callback/",
+    response_type: "code",
+    scope: "openid email profile",
+    access_type: "offline",
+    prompt: "select_account",
+  });
+
+  window.location.href =
+    `https://accounts.google.com/o/oauth2/v2/auth?${params.toString()}`;
+};
 
   return (
     <div className="min-h-screen flex">
